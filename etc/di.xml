@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandList">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="ShowActiveModules" xsi:type="object">Adele\Command\Console\Command\ShowActiveModules</item>
+                <item name="Greeting" xsi:type="object">Adele\Command\Console\Command\Greeting</item>
+            </argument>
+        </arguments>
+    </type>
+</config>
